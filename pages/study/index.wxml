@@ -1,0 +1,128 @@
+<!--pages/study/index.wxml-->
+<view class="nav" style='height:{{navHeight}}rpx;padding-top:{{navTop}}px;line-height:{{navHeight}}rpx;'>
+  <view class="{{knowledge?'se':''}}" bindtap='toknowledge' data-status="0">微笑知识</view>
+  <view class="{{!knowledge?'se':''}}" bindtap='toknowledge' data-status="1">题库</view>
+</view>
+<view style='height:{{navHeight}}rpx;margin-top:{{navTop}}px;line-height:{{navHeight}}rpx;'>
+</view>
+<view>
+  <view class="content-wrap" wx:if="{{knowledge}}">
+    <view class="knowledge">
+     <navigator url="/pages/study/knowledge/index" >
+      <view class="sub-title">
+        <span class="title">累计学习知识点 </span>
+        <image src="/images/icons/arrow.png"></image>
+      </view>
+      </navigator>
+      <view class="number-wrap">
+        3476
+        <span class="unit">个</span>
+      </view>
+      <view class="already">已有2321321人已经学习</view>
+      <image src="/images/tmp/zhishichanquan.png" class="img"></image>
+    </view>
+    <view class="Todo">
+      <view class="wrap">
+        <view class="num">14</view>
+        <view class="text">待学习</view>
+      </view>
+      <view class="line">
+      </view>
+      <view class="wrap">
+        <view class="num">333</view>
+        <view class="text">周排行</view>
+      </view>
+
+    </view>
+    <view class="main-title">
+      <span class="title">每次一学 </span>
+      <!-- <image src="/images/icons/arrow.png"></image> -->
+    </view>
+    <scroll-view scroll-x class="scroll-header">
+      <view class="certificate-wrap">
+     <navigator url="/pages/study/question/Info/index"  class="certificate">
+          <image src="/images/tmp/pic7.png" class="img"> </image>
+          <view class="title">错误率 80%</view>
+        </navigator>
+        <view class="certificate">
+          <image src="/images/tmp/pic7.png" class="img"> </image>
+          <view class="title">错误率 80%</view>
+        </view>
+        <view class="certificate">
+          <image src="/images/tmp/pic7.png" class="img"> </image>
+          <view class="title">错误率 80%</view>
+        </view>
+        <view class="certificate">
+          <image src="/images/tmp/pic7.png" class="img"> </image>
+          <view class="title">错误率 80%</view>
+        </view>
+      </view>
+
+    </scroll-view>
+    <view class="main-title">
+      <span class="title">重点推荐 </span>
+      <!-- <image src="/images/icons/arrow.png"></image> -->
+    </view>
+    <view class="important-wrap">
+      <image src="/images/tmp/pic7.png" class="img"></image>
+      <view class="course">
+        <view class="topic">
+          <text>1 </text> 知识点啊大大啊</view>
+           <navigator url="/pages/study/question/Info/index">  
+        <view class="bth">练习</view>
+        </navigator>
+      </view>
+    </view>
+
+
+  </view>
+  <view wx:else>
+    <view class="search-wrap">
+      <input class="search">
+      </input>
+      <!-- <image class="image1" src="/images/icons/search.png"></image> -->
+           <navigator url="/pages/study/question/index">  
+      <text> 搜索</text>
+      </navigator>
+    </view>
+    <view class="knowledge-wraps">
+      <view class="knowledge">
+        <view class="sub-title">
+          <span class="title">累计学习知识点 </span>
+        </view>
+        <view class="number-wrap">
+          3476
+          <span class="unit">道题</span>
+        </view>
+        <image src="/images/tmp/ss.png" class="img"></image>
+      </view>
+    </view>
+    <view class="search-history">
+      <view class="title">
+        搜索历史
+      </view>
+      <view class="search-tag">
+        <view class="tag">
+          课程
+        </view>
+        <view class="tag">
+          课程
+        </view>
+        <view class="tag">
+          课程
+        </view>
+        <view class="tag">
+          课程
+        </view>
+        <view class="tag">
+          课程课程课程课程课程
+        </view>
+        <view class="tag">
+          课程课程课程课程课程课程课程课程课程
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+</view>

@@ -1,0 +1,172 @@
+@import "/utils/wxParse/wxParse.wxss";
+
+/* pages/course/Info/index.wxss */
+
+.nav {
+  text-align: center;
+  width: 100%;
+  font-size: 32rpx;
+  position: fixed;
+  font-weight: 600;
+  z-index: 100000;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+}
+.nav .title-wrap{
+  display: flex;
+  color:rgba(51,51,51,1)
+}
+.se{
+  color:rgba(42,84,255,1);
+}
+.empt{
+  width: 20rpx;
+}
+.nav image{
+ width: 34rpx;
+ height: 34rpx;
+ float:left;
+margin-left:23rpx;
+transform:rotate(180deg);
+}
+.content-wrap {
+  margin-top: 40rpx;
+  padding-bottom: 110rpx;
+}
+
+.content {
+  padding: 0 30rpx;
+}
+
+.content-wrap .title {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+
+.content-wrap .label-wrap {
+  margin-top: 14rpx;
+}
+
+.content-wrap .label-wrap .label {
+  border: 1px solid #ebebeb;
+  padding: 3rpx 12rpx;
+  display: inline-block;
+  font-size: 20rpx;
+  border-radius: 6rpx;
+  color: #38d700;
+  margin-right: 30rpx;
+}
+
+.content-wrap  .img {
+  margin-top: 36rpx;
+  height: 320rpx;
+}
+
+.content-wrap .info {
+  margin-top: 28rpx;
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 40rpx;
+}
+
+.advantage-wrap {
+  padding: 40rpx 0;
+  position: relative;
+}
+
+.advantage {
+  /* height: 288rpx; */
+  background: #fff;
+  margin: 0 30rpx;
+  display: flex;
+  padding: 30rpx 0;
+}
+
+.advantage .bk {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.advantage .img {
+  padding: 0 30rpx;
+  width: 160rpx;
+  height: 64rpx;
+  margin-top: 0;
+}
+
+.advantage .text-wrap {
+  word-break: break-word;
+  white-space: normal;
+}
+
+.advantage .text-wrap .title {
+  font-size: 32rpx;
+  color: rgba(72, 55, 188, 1);
+  margin-right: 12rpx;
+  margin-bottom: 12rpx;
+}
+
+.advantage .text-wrap .text {
+  font-size: 28rpx;
+  color: rgba(51, 51, 51, 1);
+}
+.html5-wrap{
+  /* padding-bottom:112rpx;  */
+  margin: 30rpx;
+    box-shadow: 0 0 15px #E3E5EC;
+    border-radius: 16rpx;
+
+
+}
+.html5 {
+  padding: 0 30rpx;
+  height: 50rpx;
+  overflow: hidden;
+}
+
+.bth-wrap {
+  position: fixed;
+   width:calc(100% - 30rpx);
+  bottom: 0;
+  padding: 16rpx 15rpx;
+  height: 80rpx;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.bth-wrap .mark {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.bth-wrap .apply {
+  width: 280rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #fff;
+  background: rgba(42, 84, 255, 1);
+  border-radius: 40rpx;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  color: rgba(102, 102, 102, 1);
+}
+
+.more image {
+  width: 34rpx;
+  height: 34rpx;
+  transform: rotate(90deg);
+}

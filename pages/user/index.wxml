@@ -1,0 +1,71 @@
+<!--pages/user/index.wxml-->
+<view class="content-wrap">
+ <navigator url="/pages/user/bindInfo/index?modify=true">  
+  <view class="userInfo">
+    <view class="userInfos">
+      <image src="/images/tmp/pic7.png" class="photo"></image>
+      <view class="userName">周星星同学</view>
+    </view>
+    <image src="/images/icons/arrow.png" class="img"></image>
+  </view>
+</navigator>
+
+  <view class="Todo">
+    <view class="wrap">
+      <view class="num">14</view>
+      <view class="text">已学课程</view>
+    </view>
+    <view class="wrap">
+      <view class="num">14</view>
+      <view class="text">已做测试</view>
+    </view>
+    <view class="wrap">
+      <view class="num">33%</view>
+      <view class="text">最近三次正确率</view>
+    </view>
+
+  </view>
+  <view class="item-wrap">
+    <navigator class="item"  url="/pages/user/attention/index"> 
+      <view>
+        <image src="/images/icons/mark.png"></image>
+        <text>已关注</text>
+      </view>
+      <image src="/images/icons/arrow.png" class="img"></image>
+
+    </navigator>
+      <navigator class="item"  url="/pages/user/test/index"> 
+      <view>
+        <image src="/images/icons/test.png"></image>
+        <text>自测数据</text>
+      </view>
+      <image src="/images/icons/arrow.png" class="img"></image>
+
+     </navigator>
+     <navigator class="item"  url="/pages/user/alreadyApply/index"> 
+      <view>
+        <image src="/images/icons/Aapply.png"></image>
+        <text>已报名</text>
+      </view>
+      <image src="/images/icons/arrow.png" class="img"></image>
+
+ </navigator>
+   <navigator class="item"  url="/pages/user/apply/index"> 
+      <view>
+        <image src="/images/icons/exam.png"></image>
+        <text>考试报名</text>
+      </view>
+      <image src="/images/icons/arrow.png" class="img"></image>
+
+ </navigator>
+      <view class="item">
+      <view>
+        <image src="/images/icons/about.png"></image>
+        <text>关于我们</text>
+      </view>
+      <image src="/images/icons/arrow.png" class="img"></image>
+
+    </view>
+    
+  </view>
+</view>

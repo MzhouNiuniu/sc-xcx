@@ -1,0 +1,20 @@
+<!--pages/user/bindInfo/index.wxml-->
+<view class="centent-wrap">
+  <view class="information-wrap">
+  <view class="title" >手机号</view>
+  <input placeholder='请输入注册手机号' type="number" bindinput="getInput"  data-model="phone" value="{{phone}}" ></input>
+    <view class="title">姓名</view>
+  <input placeholder='请输入姓名' type="text"  bindinput="getInput" data-model="name" value="{{name}}" ></input>
+   <view class="title">班级</view>
+  <input placeholder='请输入学校班级' bindinput="getInput" data-model="class" value="{{class}}"></input>
+  </view>
+  <view class="bth-wrap">
+    <view class="bth" bindtap="submit">完成</view>
+  </view>
+ 
+
+</view>
+
+<!-- Toast -->
+<template is="wetoast" data="{{...__wetoast__}}" />
+<import src="/utils/wetoast/wetoast.wxml" />

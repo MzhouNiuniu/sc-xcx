@@ -1,0 +1,19 @@
+<view class="content-wrap">
+	<view class="item">
+  		<view class="text-wrap">
+			<view class="title">操作操作变成变成+</view>
+			<view class="watch">考试时间：2019.01.01</view>
+		</view>
+		<view class="bth">
+    报名</view>
+
+	</view>
+	<view class="item">
+  <view class="text-wrap">
+			<view class="title">操作操作变操作操作变成变成操作操作变成变成操作操作变成变成成变成+</view>
+			<view class="watch">2019.01.01</view>
+		</view>
+			<view class="bth">
+    报名</view>
+	</view>
+</view>

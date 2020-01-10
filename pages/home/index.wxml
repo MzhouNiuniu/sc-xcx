@@ -1,0 +1,101 @@
+<!--pages/home/index.wxml-->
+<scroll-view scroll-y class='scroll-wrap'>
+	<navigator url="/pages/home/search/index" class="search">
+		<image class="image1" src="/images/icons/search.png"></image>
+		<image class="image2" src="/images/icons/sao.png"></image>
+
+	</navigator>
+	<swiper class='swiper' indicator-active-color="#fff" indicator-color="transparent" indicator-dots circular autoplay interval="{{5000}}" duration="{{300}}">
+		<block>
+			<swiper-item>
+				<view class='pic-box'>
+					<image src="/images/tmp/banner.png"></image>
+					<!--<image mode='aspectFill' src="{{item.url}}" class="banner-item" />-->
+				</view>
+			</swiper-item>
+		</block>
+	</swiper>
+	<view class="pd15">
+		<view>
+			<navigator url="/pages/course/index">
+				<view class="main-title">
+
+					<span class="title">课程列表 </span>
+					<image src="/images/icons/arrow.png"></image>
+				</view>
+			</navigator>
+			<navigator url="/pages/course/Info/index" wx:for="{{course}}" wx:key="{{id}}">
+				<view class="course-wrap">
+					<image src="{{item.cover}}" class="course-img"> </image>
+					<view class="course-content">
+						<view class="title">{{item.name}}</view>
+						<view class="des">
+							<span>{{item.name}}</span>
+							<span class="cut-off">|</span>
+							<span>{{item.readNumber}}人观看</span>
+						</view>
+						<view class="label-wrap">
+							<view class="label" wx:for-item="{{label}}">
+								<!--EBEBEB  -->
+                {{item.label}}
+							</view>
+						</view>
+					</view>
+				</view>
+			</navigator>
+		</view>
+		<view>
+			<view class="main-title">
+				<span class="title">证书详情 </span>
+			</view>
+			<scroll-view scroll-x class="scroll-header">
+				<view class="certificate-wrap">
+					<view class="certificate"  wx:for="{{certificate}}" wx:key="{{id}}">
+						<image src="{{item.cover}}" class="img"> </image>
+
+						<view class="title">{{item.name}}</view>
+						<view class="des" wx:for-item="{{label}}" data-index="{{index}}" wx:for-index="index">
+							<span>{{item.label}}</span>
+						<span class="cut-off"  wx:if="{{!index==label.length}}"></span>
+						</view>
+					</view>
+			
+				</view>
+			</scroll-view>
+		</view>
+		<view>
+			<view class="main-title">
+				<span class="title">书辰头条 </span>
+				<image src="/images/icons/arrow.png"></image>
+			</view>
+			<view class="headline-wrap" wx:for="{{listData.data}}" wx:key="{{id}}">
+				<view class="headline">
+					<image src="{{item.cover}}" class="img"> </image>
+					<view class="content">
+						<view class="title">
+							{{item.title}}
+						</view>
+						<view class="des">疑问疑问疑问疑问疑问疑问
+						</view>
+						<view class="other">
+							<view class="watch-wrap">
+								<image src="/images/icons/watch.png" class="img"> </image>
+								<view class="text">{{item.readNumber}}</view>
+							</view>
+							<view class="label"> {{item.dataType}}</view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+	</view>
+	  <!-- 加载状态 -->
+  <view class='loading-box' wx:if="{{!listData.noMore && !listData.noActive}}">
+    <image src='/images/icons/loading.png'></image>加载中
+  </view>
+  <view class='loading-box' wx:if='{{listData.noMore && !noActive}}'>
+    <text wx:if='{{listData.data.length>0}}'>没有更多了</text>
+    <text wx:else>现在没有日志数据哦～</text>
+  </view>
+</scroll-view>

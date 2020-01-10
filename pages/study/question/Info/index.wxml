@@ -1,0 +1,34 @@
+<view class="content-warp">
+  <view class="topic">我是题目我是题目我是题目我是题目我是题目我是题目我是题目我是题目我是题目我是题目我是题目我是题目？？</view>
+  <view>
+  	<view class="tag"> 单选</view>
+  </view>
+  <view class="option-wrap">
+      <view class="item">
+      <image src="/images/checkbox/unselected+normal.png" class="img"></image>
+      <text>A--JAVA</text>
+      </view>
+  </view>
+   <view class="option-wrap">
+      <view class="item">
+      <image src="/images/checkbox/unselected+normal.png" class="img"></image>
+      <text>B--JAVA</text>
+      </view>
+  </view>
+   <view class="option-wrap">
+      <view class="item">
+      <image src="/images/checkbox/unselected+normal.png" class="img"></image>
+      <text>C--JAVA</text>
+      </view>
+  </view>
+   <view class="option-wrap">
+      <view class="item">
+      <image src="/images/checkbox/selected+normal.png" class="img"></image>
+      <text>D--JAVA</text>
+      </view>
+  </view>
+  <view class="bth-wrap">
+  <view class="bth">提交</view>
+  </view>
+
+</view>

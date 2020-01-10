@@ -1,0 +1,32 @@
+ <view class="search-wrap">
+      <input class="search">
+      </input>
+      <!-- <image class="image1" src="/images/icons/search.png"></image> -->
+
+      <text> 搜索</text>
+    </view>
+ <view class="search-history">
+      <view class="title">
+        搜索历史
+      </view>
+      <view class="search-tag">
+        <view class="tag">
+          课程
+        </view>
+        <view class="tag">
+          课程
+        </view>
+        <view class="tag">
+          课程
+        </view>
+        <view class="tag">
+          课程
+        </view>
+        <view class="tag">
+          课程课程课程课程课程
+        </view>
+        <view class="tag">
+          课程课程课程课程课程课程课程课程课程
+        </view>
+      </view>
+    </view>

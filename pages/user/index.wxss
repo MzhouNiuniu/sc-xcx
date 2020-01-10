@@ -1,0 +1,84 @@
+/* pages/user/index.wxss */
+.content-wrap{
+   padding:  0 30rpx;
+}
+.userInfo{
+ padding: 50rpx 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.userInfos{
+  display: flex;
+  align-items: center;
+}
+.userInfo .photo{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  display: inline-block;
+}
+.userInfo .userName{
+  display: inline-block;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-left: 40rpx;
+}
+.userInfo .img{
+  float: right;
+  width: 35rpx;
+  height: 35rpx;
+}
+.Todo {
+  box-shadow: 0 0 15px #e3e5ec;
+  margin-top: 20rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx 0rpx;
+  height: 160rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Todo .wrap {
+  text-align: center;
+  width: 200rpx;
+}
+
+.Todo .num {
+  font-size: 44rpx;
+  font-weight: 600;
+  margin-bottom: 12rpx;
+}
+
+.Todo .text {
+  font-size: 28rpx;
+  color: #999;
+  text-align: center;
+}
+.item-wrap{
+  margin-top:60rpx;
+}
+.item-wrap .item{
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30rpx 0;
+}
+.item-wrap .item>view{
+  display: flex;
+  align-items: center;
+}
+.item-wrap .item>view>image{
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 20rpx;
+}
+.item-wrap .item>view>text{
+  font-size: 32rpx;
+}
+.item-wrap .item  .img{
+  width: 35rpx;
+  height: 35rpx;
+}

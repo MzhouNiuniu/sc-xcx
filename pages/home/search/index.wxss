@@ -1,0 +1,71 @@
+/* pages/home/search/index.wxss */
+
+.search-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.search-wrap text{
+  font-size: 28rpx;
+  color: #666666;
+}
+
+.search {
+  width: 588rpx;
+  margin-top: 30rpx;
+  height: 80rpx;
+  z-index: 1;
+  background: #fff;
+  border-radius: 50rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+  justify-content: space-between;
+  box-shadow: 0 0 15px #e3e5ec;
+  margin: 30rpx;
+}
+
+.search-wrap .image1 {
+  width: 35rpx;
+  height: 35rpx;
+  position: absolute;
+  left: 68rpx;
+  z-index: 200;
+}
+
+.search .image2 {
+  width: 35rpx;
+  height: 35rpx;
+  float: right;
+}
+
+.knowledge-wraps {
+  margin: 30rpx;
+}
+.search-history {
+  padding: 0 30rpx;
+
+}
+
+.search-history .title {
+  font-size: 32rpx;
+  color: #202020;
+}
+
+.search-tag {
+  display: flex;
+  margin-top: 40rpx;
+    flex-wrap: wrap;
+  /* white-space:nowrap; */
+  
+}
+
+.search-tag .tag {
+  padding: 10rpx 40rpx;
+  background: #f7f7f7;
+  border-radius: 16rpx;
+  font-size: 26rpx;
+  margin-right: 40rpx;
+  margin-bottom: 30rpx;
+}

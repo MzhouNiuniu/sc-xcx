@@ -1,0 +1,10 @@
+<view class="login">
+    <view class="login-tx">
+        <open-data type="userAvatarUrl" style="overflow:hidden;display:block;"></open-data>
+    </view>
+    <open-data type="userNickName" class="login-name"></open-data>
+</view>
+
+<button hover-class="none" class="login-wx" open-type="getUserInfo" bindgetuserinfo="getInfo">微信登录</button>
+<view class="tips">书辰小程序</view>
+

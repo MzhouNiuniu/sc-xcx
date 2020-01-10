@@ -1,0 +1,284 @@
+/* pages/study/index.wxss */
+
+.nav {
+  text-align: center;
+  font-size: 32rpx;
+  position: fixed;
+  font-weight: 600;
+  top: 0;
+  background: #fff;
+  z-index: 1000000;
+  width: 100%;
+}
+
+.nav >view {
+  display: inline-block;
+  margin-right: 20rpx;
+}
+
+.se {
+  color: #2a54ff;
+}
+
+.content-wrap {
+  padding: 0 30rpx;
+  padding-bottom: 50rpx;
+}
+
+.knowledge {
+  margin-top: 40rpx;
+  height: 180rpx;
+  padding: 30rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  box-shadow: 0 0 15px #e3e5ec;
+  position: relative;
+}
+
+.knowledge .sub-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.knowledge .sub-title .title {
+  font-size: 30rpx;
+}
+
+.knowledge .sub-title image {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.knowledge .number-wrap {
+  margin-top: 10rpx;
+  font-size: 48rpx;
+}
+
+.knowledge .number-wrap .unit {
+  font-size: 24rpx;
+  color: #3f3f3f;
+}
+
+.knowledge .already {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+.knowledge .img {
+  width: 104rpx;
+  height: 84rpx;
+  position: absolute;
+  right: 20rpx;
+  bottom: 20rpx;
+}
+
+.Todo {
+  box-shadow: 0 0 15px #e3e5ec;
+  margin-top: 20rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx 60rpx;
+  height: 160rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Todo .wrap {
+  text-align: center;
+  width: 200rpx;
+}
+
+.Todo .num {
+  font-size: 44rpx;
+  font-weight: 600;
+  margin-bottom: 12rpx;
+}
+
+.Todo .text {
+  font-size: 28rpx;
+  color: #999;
+  text-align: center;
+}
+
+.Todo .line {
+  width: 1px;
+  height: 100rpx;
+  background: #ebebeb;
+}
+
+.main-title {
+  padding-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.main-title .title {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+
+.main-title image {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.scroll-header {
+  display: flex;
+  white-space: nowrap;
+  margin-top: 40rpx;
+}
+
+.certificate-wrap {
+}
+
+.certificate-wrap .certificate {
+  width: 260rpx;
+  margin-right: 30rpx;
+  display: inline-block;
+}
+
+.certificate-wrap .certificate .img {
+  height: 160rpx;
+  width: 260rpx;
+  display: inline-block;
+}
+
+.certificate-wrap .certificate  .title {
+  font-size: 26rpx;
+  margin-top: 30rpx;
+}
+
+.certificate-wrap .certificate  .des {
+  font-size: 20rpx;
+  color: #999;
+  margin-top: 14rpx;
+}
+
+.certificate-wrap .certificate  .des .cut-off {
+  padding: 0 20rpx;
+  color: #999;
+}
+
+.important-wrap {
+  /* height: 300rpx; */
+}
+
+.important-wrap .img {
+  margin-top: 40rpx;
+  height: 300rpx;
+}
+
+.important-wrap .course {
+  height: 120rpx;
+  line-height: 120rpx;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.important-wrap .topic {
+  font-size: 30rpx;
+  color: #202020;
+  float: left;
+}
+
+.important-wrap .bth {
+  padding: 5rpx 30rpx;
+  background: #2a54ff;
+  color: #fff;
+  border-radius: 8rpx;
+  float: right;
+  height: 60rpx;
+  margin: 30rpx 0;
+  line-height: 60rpx;
+}
+
+/* 题库 */
+
+.search-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.search-wrap text{
+  font-size: 28rpx;
+  color: #666666;
+}
+
+.search {
+  width: 588rpx;
+  margin-top: 30rpx;
+  height: 80rpx;
+  z-index: 1;
+  background: #fff;
+  border-radius: 50rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+  justify-content: space-between;
+  box-shadow: 0 0 15px #e3e5ec;
+  margin: 30rpx;
+}
+
+.search-wrap .image1 {
+  width: 35rpx;
+  height: 35rpx;
+  position: absolute;
+  left: 68rpx;
+  z-index: 200;
+}
+
+.search .image2 {
+  width: 35rpx;
+  height: 35rpx;
+  float: right;
+}
+
+.knowledge-wraps {
+  margin: 30rpx;
+}
+
+.knowledge-wraps .number-wrap {
+  margin-top: 45rpx;
+}
+
+.knowledge-wraps .knowledge {
+  height: 150rpx;
+}
+
+.knowledge-wraps .knowledge .img {
+  width: 92rpx;
+  height: 68rpx;
+}
+
+.search-history {
+  padding: 0 30rpx;
+
+}
+
+.search-history .title {
+  font-size: 32rpx;
+  color: #202020;
+}
+
+.search-tag {
+  display: flex;
+  margin-top: 40rpx;
+    flex-wrap: wrap;
+  /* white-space:nowrap; */
+  
+}
+
+.search-tag .tag {
+  padding: 10rpx 40rpx;
+  background: #f7f7f7;
+  border-radius: 16rpx;
+  font-size: 26rpx;
+  margin-right: 40rpx;
+  margin-bottom: 30rpx;
+}

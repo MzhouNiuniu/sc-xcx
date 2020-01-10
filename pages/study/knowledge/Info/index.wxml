@@ -1,0 +1,37 @@
+<!--pages/study/knowledge/Info/index.wxml-->
+<import src="../../../../utils/wxParse/wxParse.wxml" />
+<view>
+  <view class="html5">
+    <template is="wxParse" class='content-item' data="{{wxParseData:article.nodes}}" />
+
+  </view>
+  <view class='line'></view>
+  <view class="question-wrap">
+    <view class="question">
+      <view class="l">
+        <view class="tag"> 单选</view>
+        <view class="topic">我是我是问题啊我是问题啊我是问题啊我是问题啊问题啊</view>
+      </view>
+
+      <view class="r">
+        <view class="num">1000人已做</view>
+        <image src="/images/icons/arrow.png" class="img"></image>
+      </view>
+
+
+    </view>
+     <view class="question">
+      <view class="l">
+        <view class="tag"> 单选</view>
+        <view class="topic">我是我是问题啊我是问题啊我是问题啊我是问题啊问题啊</view>
+      </view>
+
+      <view class="r">
+        <view class="num">1000人已做</view>
+        <image src="/images/icons/arrow.png" class="img"></image>
+      </view>
+
+
+    </view>
+  </view>
+</view>

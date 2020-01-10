@@ -1,0 +1,20 @@
+<view class="content-wrap">
+     
+      <view class="course-wrap">
+       <image src="/images/tmp/pic1.png" class="course-img"> </image>
+        <view class="course-content">
+          <view class="title">课程列表课程列表课程列表课程列表课程列表课程列表课程列表课程列表课程列表课程列表课程列表</view>
+          <view class="des">
+            <span>初级</span>
+            <span class="cut-off">|</span>
+            <span>164人观看</span>
+          </view>
+          <view class="label-wrap">
+            <view class="label">
+              <!--EBEBEB  -->
+              321321
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>

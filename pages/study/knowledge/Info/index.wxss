@@ -1,0 +1,52 @@
+/* pages/study/knowledge/Info/index.wxss */
+@import "/utils/wxParse/wxParse.wxss";
+
+.html5 {
+  padding: 30rpx;
+}
+
+.line {
+  background: #f5f5f5;
+  height: 20rpx;
+}
+
+.question-wrap {
+  padding: 0 30rpx;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 100rpx; */
+  padding: 40rpx 0rpx;
+  border-bottom: 1px solid #EBEBEB ;
+}
+.question >view{
+  display: flex
+}
+.question .tag {
+  padding: 5rpx 20rpx;
+  border: 1px solid #ebebeb;
+  font-size: 20rpx;
+  border-radius: 8rpx;
+  margin-right: 20rpx;
+}
+
+.question .topic {
+  font-size: 30rpx;
+  color: #202020;
+  display: inline-block;
+  width: 380rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.question .num{
+  font-size: 24rpx;
+  color:#999999;
+}
+.question .img{
+  width: 32rpx;
+  height: 32rpx;
+}

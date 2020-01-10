@@ -1,0 +1,45 @@
+/* pages/study/question/Info/index.wxss */
+.content-warp{
+  padding:0 30rpx;
+}
+.topic{
+  font-size: 32rpx;
+}
+.tag {
+  margin-top: 30rpx;
+  width: 50rpx;
+  padding: 5rpx 20rpx;
+  border: 1px solid #ebebeb;
+  font-size: 20rpx;
+  border-radius: 8rpx;
+  margin-right: 20rpx;
+  text-align: center;
+}
+.option-wrap{
+  margin-top: 60rpx;
+}
+.option-wrap .item{
+  color: #333333 ;
+  display: flex;
+  align-items: center;
+}
+.img{
+  width: 44rpx;
+  height: 44rpx;
+  margin-right: 30rpx;
+}
+.bth-wrap{
+  margin-top: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bth{
+  width: 280rpx;
+  height: 80rpx;
+  background: #2A54FF;
+  color: #fff;
+  border-radius: 40rpx;
+  text-align: center;
+  line-height: 80rpx;
+}

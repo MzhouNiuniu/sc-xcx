@@ -1,0 +1,29 @@
+/* pages/user/bindInfo/index.wxss */
+.centent-wrap{
+padding: 0 36rpx;
+padding-top: 80rpx;
+}
+.information-wrap .title{
+  margin-top: 54rpx;
+  font-size: 30rpx;
+  color:#666;
+}
+.information-wrap input{
+  margin-top: 12rpx;
+  font-size: 28rpx;
+  border-bottom: 1px solid #F5F5F5 ;
+  padding: 14rpx 0 ;
+}
+.bth-wrap{
+  margin-top: 140rpx;
+  text-align: center
+}
+.bth-wrap .bth{
+  width: 640rpx;
+  height: 90rpx;
+  color: #fff;
+  background: #2A54FF ;
+  line-height: 90rpx;
+  font-size: 32rpx;
+  border-radius: 40rpx;
+}

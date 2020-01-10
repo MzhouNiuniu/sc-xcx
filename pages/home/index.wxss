@@ -1,0 +1,226 @@
+/* pages/home/index.wxss */
+
+.scroll-wrap {
+  /* padding: 0 30rpx; */
+  box-sizing: border-box;
+}
+
+.search {
+  margin-top: 30rpx;
+  height: 80rpx;
+  z-index: 1;
+  background: #fff;
+  border-radius: 50rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+  justify-content: space-between;
+  box-shadow: 0 0 15px #e3e5ec;
+  margin: 30rpx;
+}
+
+.search .image1 {
+  width: 35rpx;
+  height: 35rpx;
+  float: left;
+}
+
+.search .image2 {
+  width: 35rpx;
+  height: 35rpx;
+  float: right;
+}
+
+.pd15 {
+  padding: 0 30rpx;
+}
+
+.swiper {
+  margin: 30rpx;
+  height: 300rpx;
+}
+
+.pic-box {
+  height: 300rpx;
+  border-radius: 40rpx;
+}
+
+.pic-box image {
+  display: initial;
+}
+
+.main-title {
+  padding-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.main-title .title {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+
+.main-title image {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.course-wrap {
+  margin-top: 40rpx;
+  height: 180rpx;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.course-wrap .course-img {
+  width: 240rpx;
+  height: 180rpx;
+}
+
+.course-wrap .course-content {
+  margin-left: 30rpx;
+}
+
+.course-wrap .course-content .title {
+  font-size: 30rpx;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  width: 412rpx;
+  overflow: hidden;
+}
+
+.course-wrap .course-content .des {
+  margin-top: 14rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+.course-wrap .course-content .des .cut-off {
+  padding: 0 20rpx;
+}
+
+.course-wrap .course-content  .label-wrap {
+  margin-top: 17rpx;
+}
+
+.course-wrap .course-content .label-wrap .label {
+  border: 1px solid #ebebeb;
+  padding: 3rpx 12rpx;
+  display: inline-block;
+  font-size: 20rpx;
+  border-radius: 6rpx;
+  color: #38d700;
+  margin-right: 30rpx;
+}
+
+.scroll-header {
+  margin-top: 40rpx;
+  display: flex;
+  white-space: nowrap;
+}
+
+.certificate-wrap {
+}
+
+.certificate-wrap .certificate {
+  width: 260rpx;
+  margin-right: 30rpx;
+  display: inline-block;
+}
+
+.certificate-wrap .certificate .img {
+  height: 160rpx;
+  width: 260rpx;
+  display: inline-block;
+}
+
+.certificate-wrap .certificate  .title {
+  font-size: 26rpx;
+  font-weight: 600;
+  
+  margin-top: 30rpx;
+}
+
+.certificate-wrap .certificate  .des {
+  font-size: 20rpx;
+  color: #999;
+  margin-top: 14rpx;
+}
+
+.certificate-wrap .certificate  .des .cut-off {
+  padding: 0 20rpx;
+  color: #999;
+}
+
+.headline-wrap {
+}
+
+.headline {
+  margin-top: 40rpx;
+  margin-bottom: 30rpx;
+  border-radius: 16rpx;
+  box-shadow: 0 0 15px #e3e5ec;
+  overflow: hidden;
+}
+
+.headline .img {
+  height: 340rpx;
+}
+
+.headline .content {
+  padding: 30rpx 20rpx;
+  background: #fff;
+}
+
+.headline .title {
+  font-size: 34rpx;
+  font-weight: 600;
+}
+
+.headline .des {
+  margin-top: 14rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #999;
+}
+
+.headline .other {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headline .other .watch-wrap {
+  font-size: 26rpx;
+  display: flex;
+  align-items: center;
+}
+
+.headline .other .watch-wrap .text {
+  font-size: 26rpx;
+  color: #999;
+}
+
+.headline .other .watch-wrap .img {
+  margin-right: 10rpx;
+  width: 32rpx;
+  height: 20rpx;
+}
+
+.headline .other .label {
+  padding: 5rpx 25rpx;
+  font-size: 26rpx;
+  border: 1px solid #ebebeb;
+  border-right: 0px solid #fff;
+  border-radius: 20rpx 0 0 20rpx;
+  margin-right: -20rpx;
+}
+
+
+
